@@ -27,7 +27,7 @@ function App() {
   }
 
   return (
-    <HashRouter>
+    <HashRouter base="/">
       <Routes>
         <Route path='/'>
           <Route index element={
